@@ -1,0 +1,23 @@
+header {
+    color: #fff;
+}
+
+.main-navbar {
+    /* height: 8vh; */
+    background-color: rgb(97, 151, 243); /* lighter shade than originally used */
+} 
+
+.main-navbar__title {
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.main-navbar__links {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
+}
