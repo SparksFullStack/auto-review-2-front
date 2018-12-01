@@ -28,9 +28,7 @@ class Header extends Component {
     return (
       <header>
         <Navbar className="main-navbar" dark expand="lg">
-            <NavbarBrand href="/">
-                <p className="main-navbar__title">Auto Review For You</p>
-            </NavbarBrand>
+            <NavbarBrand className="text-white" href="/"><span className="main-navbar__title">Auto Review For You</span></NavbarBrand>
             <NavbarToggler onClick={this.navToggle} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
                     {!this.state.isLoggedIn ? 
